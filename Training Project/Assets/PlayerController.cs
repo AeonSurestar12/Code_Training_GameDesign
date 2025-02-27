@@ -30,6 +30,8 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
 
+        if (GameManager.Instance.State != GameState.Playing) return;
+
         if (_input.actions["Fire"].WasPressedThisFrame())
         {
             //create a new object that is a clone of the ballPrefab
@@ -48,6 +50,8 @@ public class PlayerController : MonoBehaviour
     {
         //set direction to the Move action's Vector2 value
         var dir = _input.actions["Move"].ReadValue<Vector2>();
+
+        if (GameManager.Instance.State != GameState.Playing) return;
 
         //change the velocity to match the Move (every physics update)
         _rigidbody.velocity = dir * 5;
