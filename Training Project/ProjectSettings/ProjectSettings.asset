@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 90035e384a1dbe446869a760d1a09dc4
+  productGUID: 86ff24ef8d2db4f45a7f89cf551daf85
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -671,11 +671,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: cd98b5a8-cfdc-4f13-8c52-ffcbe8710479
+  cloudProjectId: cd5142a2-0f1c-4ef0-804a-d2cff7964ff5
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: Training Project
-  organizationId: aeonsurestar12
+  organizationId: serdnaking
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
