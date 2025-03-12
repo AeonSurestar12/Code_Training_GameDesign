@@ -1,7 +1,9 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyController : MonoBehaviour
+[RequireComponent(typeof(Rigidbody2D))]
+
 {
     private Rigidbody2D _rigidbody;
     private Vector2 _direction = Vector2.right;
